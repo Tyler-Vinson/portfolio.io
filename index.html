@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<head class="page-head"><meta name="viewport" content="width=device-width, initial-scale=1"><title class="page-title">Tyler Vinson Portfolio</title><link class="stylesheet-link" rel="stylesheet" href="portfolio.css"></head>
+<body class="page">
+    <header class="mac-menubar">
+        <nav class="mac-menu" aria-label="Main navigation">
+            <a class="mac-brand" href="#top" aria-label="Tyler Vinson home"><img src="photos/ky v.svg" alt=""><strong>Tyler Vinson</strong></a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="mac-status">
+            <div class="top-row-icons" aria-label="System controls">
+                <button class="top-row-icon" type="button" aria-label="Search" title="Search"><img src="photos/top row icons/search.svg" alt=""></button>
+                <button class="top-row-icon" type="button" aria-label="User profile" title="User profile"><img src="photos/top row icons/user.svg" alt=""></button>
+                <button class="top-row-icon" type="button" aria-label="Mode" title="Mode"><img src="photos/top row icons/mode.svg" alt=""></button>
+                <button class="top-row-icon" type="button" aria-label="Network status" title="Network status"><img src="photos/top row icons/wifi.svg" alt=""></button>
+            </div>
+            <time class="status-signal" id="mac-date" aria-label="Current date">-- --- --</time>
+            <time id="mac-clock">--:--</time>
+        </div>
+    </header>
+    <section class="linktree" aria-label="Portfolio icons">
+        <button class="links" type="button" data-window="window-one"><img src="photos/folder.png" alt="Folder"><span>About Me</span></button>
+        <button class="links" type="button" data-window="window-two"><img src="photos/folder.png" alt="Folder"><span>Contact</span></button>
+        <button class="links" type="button" data-window="window-three"><img src="photos/folder.png" alt="Folder"><span>Skills</span></button>
+        <button class="links" type="button" data-window="window-four"><img src="photos/folder.png" alt="folder"><span>Projects</span></button>
+    </section>
+    <section class="info-window" id="window-one" hidden>
+        <header class="info-bar"><div class="window-controls"><button class="window-control close-window" type="button" aria-label="Close First Link" title="Close">×</button><button class="window-control minimize-window" type="button" aria-label="Minimize First Link" title="Minimize"> </button><button class="window-control maximize-window" type="button" aria-label="Maximize First Link" title="Maximize">+</button></div><span>About Me</span></header>
+        <div class="info-content"><p>I live in a small Mississippi town called Houlka, but I graduated from South Pontotoc Highschool. Now I attend Base Camp, which is where I learned 9 coding languages, frameworks, and processes (Python, SQL, HTML, CSS, Javascript, React, DJango, Java, Spring, and Git). Base Camp also taught me skills like teamwork, budgeting, communication, and professional conduct.
+I hope to use the skills I learned at Base Camp to propel me into IT.</p></div>
+    </section>
+    <section class="info-window" id="window-two" hidden>
+        <header class="info-bar"><div class="window-controls"><button class="window-control close-window" type="button" aria-label="Close Second Link" title="Close">×</button><button class="window-control minimize-window" type="button" aria-label="Minimize Second Link" title="Minimize">−</button><button class="window-control maximize-window" type="button" aria-label="Maximize Second Link" title="Maximize">+</button></div><span>Second Link</span></header>
+        <div class="info-content">
+            <header class="thing" id="about">
+                <p class="contact">Email: vinsontylersch@gmail.com </p>
+                <p class="contact">Phone: (662)-297-8712</p>
+                <p class="contact"> <a class="link3" href="https://example.com">My Linkedin</a> </p>
+                <p class="contact"> <a class="link3" href="https://example.com">My Github</a> </p>
+                <p class="contact"> <a class="link3" href="https://example.com">My Resume</a></p>
+            </header>
+        </div>
+    </section>
+    <section class="info-window" id="window-three" hidden>
+        <header class="info-bar"><div class="window-controls"><button class="window-control close-window" type="button" aria-label="Close Third Link" title="Close">×</button><button class="window-control minimize-window" type="button" aria-label="Minimize Third Link" title="Minimize">−</button><button class="window-control maximize-window" type="button" aria-label="Maximize Third Link" title="Maximize">+</button></div><span>Skills</span></header>
+        <div class="info-content"><h2>My Technical Skills</h2><p>1. Python</p><p>2. SQL</p><p>3. HTML</p><p>4. CSS</p><p>5. JavaScript</p><p>6. React</p><p>7. Django</p><p>8. Java</p><p>9. Spring</p><p>10. Git</p></div>
+    </section>
+    <section class="info-window" id="window-four" hidden>
+        <header class="info-bar"><div class="window-controls"><button class="window-control close-window" type="button" aria-label="Close Fourth Link" title="Close">×</button><button class="window-control minimize-window" type="button" aria-label="Minimize Fourth Link" title="Minimize">−</button><button class="window-control maximize-window" type="button" aria-label="Maximize Fourth Link" title="Maximize">+</button></div><span>Fourth Link</span></header>
+        <div class="info-content"><h2>placeholder</h2><p>hi</p></div>
+    </section>
+    <nav class="dock" aria-label="Quick access">
+        <div class="finder-launcher">
+            <button class="dock-link finder-button" type="button" aria-label="Open Finder menu" aria-expanded="false" aria-controls="finder-menu" title="Finder"><img src="photos/finder.png" alt=""></button>
+            <div class="finder-menu" id="finder-menu" hidden>
+                <button class="finder-menu-item" type="button" data-window="window-one">About Me</button>
+                <button class="finder-menu-item" type="button" data-window="window-two">Contact</button>
+                <button class="finder-menu-item" type="button" data-window="window-three">Skills</button>
+                <button class="finder-menu-item" type="button" data-window="window-four">Projects</button>
+            </div>
+        </div>
+        <span class="dock-divider" aria-hidden="true"></span>
+        <button class="dock-link" type="button" aria-label="Safari" title="Safari"><img src="photos/safari.png" alt=""></button>
+        <button class="dock-link" type="button" aria-label="Photos" title="Photos"><img src="photos/photos.png" alt=""></button>
+        <button class="dock-link" type="button" aria-label="Trash" title="Trash"><img src="photos/trash.png" alt=""></button>
+    </nav>
+    <section class="name">
+        <h3>My Name Is Tyler Vinson. Welcome To My </h3>
+        <h1>Portfolio</h1>
+        <h3>Aspire To Be Greater</h3></section>
+    <div class="content" id="top"></div>
+    <span id="skills" class="page-anchor"></span>
+    <span id="contact" class="page-anchor"></span>
+    <script>
+        const clock = document.querySelector('#mac-clock');
+        const date = document.querySelector('#mac-date');
+
+        function updateClock() {
+            const now = new Date();
+            clock.textContent = new Intl.DateTimeFormat([], {
+                hour: 'numeric',
+                minute: '2-digit'
+            }).format(now);
+            date.textContent = new Intl.DateTimeFormat([], {
+                weekday: 'short',
+                month: 'short',
+                day: 'numeric'
+            }).format(now);
+        }
+
+        updateClock();
+        setInterval(updateClock, 30000);
+
+        const linkButtons = document.querySelectorAll('.links');
+        let topWindowLayer = 10;
+
+        linkButtons.forEach((button) => {
+            let draggingIcon = false;
+            let movedIcon = false;
+            let offsetX = 0;
+            let offsetY = 0;
+
+            button.addEventListener('click', () => {
+                if (movedIcon) {
+                    movedIcon = false;
+                    return;
+                }
+                const infoWindow = document.querySelector(`#${button.dataset.window}`);
+                infoWindow.hidden = false;
+                infoWindow.style.zIndex = ++topWindowLayer;
+            });
+
+            button.addEventListener('pointerdown', (event) => {
+                event.preventDefault();
+                const bounds = button.getBoundingClientRect();
+                offsetX = event.clientX - bounds.left;
+                offsetY = event.clientY - bounds.top;
+                draggingIcon = true;
+                button.setPointerCapture(event.pointerId);
+            });
+
+            button.addEventListener('pointermove', (event) => {
+                if (!draggingIcon) return;
+                const bounds = button.getBoundingClientRect();
+                const nextLeft = event.clientX - offsetX;
+                const nextTop = event.clientY - offsetY;
+
+                if (Math.abs(nextLeft - bounds.left) > 3 || Math.abs(nextTop - bounds.top) > 3) {
+                    movedIcon = true;
+                }
+
+                if (!movedIcon) return;
+                button.style.position = 'fixed';
+                button.style.left = `${nextLeft}px`;
+                button.style.top = `${nextTop}px`;
+                button.style.zIndex = ++topWindowLayer;
+            });
+
+            button.addEventListener('pointerup', () => {
+                draggingIcon = false;
+            });
+
+            button.addEventListener('pointercancel', () => {
+                draggingIcon = false;
+            });
+        });
+
+        const finderButton = document.querySelector('.finder-button');
+        const finderMenu = document.querySelector('#finder-menu');
+        const finderLauncher = document.querySelector('.finder-launcher');
+
+        function showFinderMenu() {
+            finderMenu.hidden = false;
+            finderButton.setAttribute('aria-expanded', 'true');
+        }
+
+        function hideFinderMenu() {
+            finderMenu.hidden = true;
+            finderButton.setAttribute('aria-expanded', 'false');
+        }
+
+        finderButton.addEventListener('click', () => {
+            const isOpen = !finderMenu.hidden;
+            if (isOpen) {
+                hideFinderMenu();
+            } else {
+                showFinderMenu();
+            }
+        });
+
+        finderLauncher.addEventListener('mouseenter', showFinderMenu);
+        finderLauncher.addEventListener('mouseleave', hideFinderMenu);
+
+        document.querySelectorAll('.finder-menu-item').forEach((button) => {
+            button.addEventListener('click', () => {
+                const infoWindow = document.querySelector(`#${button.dataset.window}`);
+                infoWindow.hidden = false;
+                infoWindow.style.zIndex = ++topWindowLayer;
+                hideFinderMenu();
+            });
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!event.target.closest('.finder-launcher')) {
+                hideFinderMenu();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') hideFinderMenu();
+        });
+
+        document.querySelectorAll('.info-window').forEach((infoWindow) => {
+            const infoBar = infoWindow.querySelector('.info-bar');
+            const closeButton = infoWindow.querySelector('.close-window');
+            const minimizeButton = infoWindow.querySelector('.minimize-window');
+            const maximizeButton = infoWindow.querySelector('.maximize-window');
+            let dragging = false;
+            let offsetX = 0;
+            let offsetY = 0;
+
+            closeButton.addEventListener('click', () => {
+                infoWindow.hidden = true;
+            });
+
+            minimizeButton.addEventListener('click', () => {
+                infoWindow.classList.toggle('minimized');
+            });
+
+            maximizeButton.addEventListener('click', () => {
+                infoWindow.classList.toggle('maximized');
+            });
+
+            infoBar.addEventListener('pointerdown', (event) => {
+                if (event.target.closest('button')) return;
+                event.preventDefault();
+                dragging = true;
+                const bounds = infoWindow.getBoundingClientRect();
+                offsetX = event.clientX - bounds.left;
+                offsetY = event.clientY - bounds.top;
+                infoWindow.style.zIndex = ++topWindowLayer;
+                infoBar.setPointerCapture(event.pointerId);
+            });
+
+            infoBar.addEventListener('pointermove', (event) => {
+                if (!dragging) return;
+                infoWindow.style.left = `${event.clientX - offsetX}px`;
+                infoWindow.style.top = `${event.clientY - offsetY}px`;
+                infoWindow.style.right = 'auto';
+            });
+
+            infoBar.addEventListener('pointerup', () => {
+                dragging = false;
+            });
+
+            infoBar.addEventListener('pointercancel', () => {
+                dragging = false;
+            });
+
+            infoBar.addEventListener('lostpointercapture', () => {
+                dragging = false;
+            });
+        });
+    </script>
+</body>
